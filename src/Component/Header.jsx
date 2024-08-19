@@ -6,7 +6,7 @@ import TeleLogo from "@/Images/teleLogo.png"
 import bannerEffect from "@/Images/Effects/effect banner.png"
 import bannerVector from "@/Images/Effects/VectorRightBanner.png"
 import bannerVectorLeft from "@/Images/Effects/Vector.png"
-
+import ExtraCoin from "@/Images/btcm2Right.png"
 
 import Image from "next/image";
 
@@ -26,23 +26,23 @@ const MainPage = () => {
                     <div className="flex-none  z-50">
                         <ul className="flex gap-3 ">
                             <li>
-                                <Link href={"#"}>
+                                <Link href={"https://t.me/tapcoincash"} target="_blank">
                                     <Image src={TeleLogo} alt="Twitter"
-                                        className="w-8"
+                                        className="w-6 md:w-8"
                                     />
                                 </Link>
                             </li>
                             <li>
-                                <Link href={"#"}>
-                                    <Image src={InstaLogo} alt="Twitter"
-                                        className="w-8"
+                                <Link href={"https://www.instagram.com/tapcoingames/"} target="_blank">
+                                    <Image src={InstaLogo} alt="Insta Logo"
+                                        className="w-6 md:w-8"
                                     />
                                 </Link>
                             </li>
                             <li>
-                                <Link href={"#"}>
+                                <Link href={"https://x.com/tapcoingames"} target="_blank">
                                     <Image src={TwitterLogo} alt="Twitter"
-                                        className="w-8"
+                                        className="w-6 md:w-8"
                                     />
                                 </Link>
                             </li>
@@ -51,13 +51,18 @@ const MainPage = () => {
                         </ul>
                     </div>
                 </div>
-                <figure className=" ">
+                <figure className="relative ">
                     <Image src={bannerEffect} alt="Banner Effect" className="absolute top-0 right-0 " />
                     <Image src={bannerVector} alt="Banner Effect" className="absolute top-0 right-0 " />
                     <Image src={bannerVectorLeft} alt="Banner Effect" className="absolute top-0 left-0 " />
+                    <Image src={ExtraCoin} alt="Banner Effect" className="w-20 md:w-24 xl:w-32 absolute top-[22rem] md:top-[20rem] xl:top-[30rem] right-0 " />
                 </figure>
 
+
+
+
             </header >
+
 
 
         </>
