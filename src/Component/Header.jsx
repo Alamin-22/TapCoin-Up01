@@ -6,7 +6,8 @@ import TeleLogo from "@/Images/teleLogo.png"
 import bannerEffect from "@/Images/Effects/effect banner.png"
 import bannerVector from "@/Images/Effects/VectorRightBanner.png"
 import bannerVectorLeft from "@/Images/Effects/Vector.png"
-import ExtraCoin from "@/Images/btcm2Right.png"
+import ExtraCoinRight from "@/Images/btcm2Right.png"
+import ExtraCoinLeft from "@/Images/btcm1Left.png"
 
 import Image from "next/image";
 
@@ -51,15 +52,15 @@ const MainPage = () => {
                         </ul>
                     </div>
                 </div>
-                <figure className="relative ">
-                    <Image src={bannerEffect} alt="Banner Effect" className="absolute top-0 right-0 " />
-                    <Image src={bannerVector} alt="Banner Effect" className="absolute top-0 right-0 " />
-                    <Image src={bannerVectorLeft} alt="Banner Effect" className="absolute top-0 left-0 " />
-                    <Image src={ExtraCoin} alt="Banner Effect" className="w-20 md:w-24 xl:w-32 absolute top-[22rem] md:top-[20rem] xl:top-[30rem] right-0 " />
+                <figure className=" ">
+                    <Image src={bannerEffect} alt="Banner Effect" className="  absolute top-0 right-0 " />
+                    <Image src={bannerVector} alt="Banner Effect" className="h-screen absolute top-0 right-0 " />
+                    <Image src={bannerVectorLeft} alt="Banner Effect" className="h-screen absolute top-0 left-0 " />
+                    <Image src={ExtraCoinRight} alt="Banner Effect" className=" w-20 md:w-24 xl:w-32 absolute 
+                    top-[22rem] md:top-[20rem] xl:top-[30rem] right-0 " />
+                    <Image src={ExtraCoinLeft} alt="Banner Effect" className=" w-20 md:w-24 xl:w-32 absolute 
+                    top-[20rem] md:top-[23rem] xl:top-[35rem] left-0 " />
                 </figure>
-
-
-
 
             </header >
 
