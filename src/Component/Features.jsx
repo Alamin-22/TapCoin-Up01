@@ -3,8 +3,6 @@ import feature2 from "@/Images/feature 2.png"
 import feature3 from "@/Images/feature 3.png"
 import feature4 from "@/Images/feature 4.png"
 import Image from "next/image";
-import Link from "next/link";
-
 
 const Features = () => {
     return (
@@ -28,6 +26,7 @@ const Features = () => {
                 />
 
             </div>
+
 
         </>
     );

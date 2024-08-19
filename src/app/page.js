@@ -2,6 +2,7 @@
 import BannerSection from "@/Component/BannerSection";
 import Features from "@/Component/Features";
 import Header from "@/Component/Header";
+import Invitation from "@/Component/Invitation";
 
 const HomePageOfTapCoin = () => {
   return (
@@ -9,6 +10,8 @@ const HomePageOfTapCoin = () => {
       <Header />
       <BannerSection />
       <Features />
+      <Invitation />
+
     </div>
   );
 };
