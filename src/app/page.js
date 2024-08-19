@@ -2,7 +2,8 @@ import Header from "@/Component/Header";
 
 const HomePageOfTapCoin = () => {
   return (
-    <div>
+    <div className="min-h-screen  
+    bg-black">
       <Header />
     </div>
   );
