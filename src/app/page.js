@@ -3,6 +3,7 @@ import BannerSection from "@/Component/BannerSection";
 import Features from "@/Component/Features";
 import Header from "@/Component/Header";
 import Invitation from "@/Component/Invitation";
+import Splash from "@/Component/Splash";
 
 const HomePageOfTapCoin = () => {
   return (
@@ -11,6 +12,7 @@ const HomePageOfTapCoin = () => {
       <BannerSection />
       <Features />
       <Invitation />
+      <Splash />
 
     </div>
   );
