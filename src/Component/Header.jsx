@@ -11,7 +11,7 @@ import ExtraCoinLeft from "@/Images/btcm1Left.png"
 
 import Image from "next/image";
 
-const MainPage = () => {
+const Header = () => {
     return (
         <>
             <header className="pt-11 ">
@@ -70,4 +70,4 @@ const MainPage = () => {
     );
 };
 
-export default MainPage;
+export default Header;
