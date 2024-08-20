@@ -15,7 +15,7 @@ const MainPage = () => {
     return (
         <>
             <header className="pt-11 ">
-                <div className="navbar max-w-6xl mx-auto ">
+                <div className="navbar max-w-6xl mx-auto  px-6">
                     <div className="flex-1 z-50">
                         <a href="#">
                             <Image width={500} height={500} src={tapCoinLogo}

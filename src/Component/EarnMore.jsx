@@ -13,7 +13,7 @@ import Link from "next/link"
 
 const EarnMore = () => {
     return (
-        <div className=" w-full ">
+        <div className=" w-full mb-4 ">
             <div className=" relative h-[15rem] md:h-[25rem] lg:h-[30rem] xl:h-[38rem] ">
                 <div className=" pt-12 md:pt-28 lg:pt-36 xl:pt-40 flex justify-evenly items-center">
                     <Image src={EarMoreText} alt="Text" className=" ml-8 w-[40%] z-50" />
@@ -41,13 +41,13 @@ const EarnMore = () => {
 
             </div>
             {/* Third One */}
-            <div className="  relative xl:h-[40rem] ">
+            <div className="  relative xl:h-[40rem]  ">
                 <div className=" flex justify-evenly items-center">
                     <Link href={"https://t.me/Tapcoincash_bot"} target="_blank" className="z-50" >
                         <Image src={Join} alt="Text" className=" w-[80%] xl:w-full ml-8 z-50" />
                     </Link>
 
-                    <Image src={WhiteCartoon} alt="cartoon Effect" className="w-[40%] z-50" />
+                    <Image src={WhiteCartoon} alt="cartoon Effect" className=" w-[40%] xl:w-[32%] z-50" />
 
                 </div>
                 <figure className=" ">
