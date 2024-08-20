@@ -18,25 +18,25 @@ const BannerSection = () => {
                         className="animate-float md:max-w-md xl:max-w-2xl  "
                     />
                     <div className=' '>
-                        <Image
+                        <Image draggable={false}
                             src={BannerHeading} alt='Image of Mobile with Coins'
                             className=" max-w-56 xl:max-w-md  mx-auto"
                         />
-                        <Image
+                        <Image draggable={false}
                             src={subHeading} alt='Image of Mobile with Coins'
                             className="max-w-56 xl:max-w-md mx-auto" />
 
                         <p className="py-6 md:pl-5 xl:pl-0 max-w-80 text-white text-xs xl:text-sm text-center md:text-left">
                             Start with solo mining and expand to become the  owner of the world&apos;s largest BTCm mining company.
                         </p>
-                        <Image
+                        <Image draggable={false}
                             src={subSubHeading} alt='Image of Mobile with Coins'
                             className="max-w-56 xl:max-w-xs mx-auto" />
 
                         <Link href={"https://t.me/tapcoincash"} target='_blank'>
                             <Image
                                 src={Button} alt='Image of Mobile with Coins'
-                                className="max-w-40 md:max-w-56 xl:max-w-xs mx-auto hover:scale-110 transition delay-100 active:scale-100"
+                                className="max-w-40 md:max-w-56 xl:max-w-xs mx-auto hover:scale-105 transition duration-500 active:scale-100"
                             />
                         </Link>
 

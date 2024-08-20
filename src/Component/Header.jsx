@@ -29,21 +29,21 @@ const Header = () => {
                             <li>
                                 <Link href={"https://t.me/tapcoincash"} target="_blank">
                                     <Image src={TeleLogo} alt="Twitter"
-                                        className="w-6 md:w-8"
+                                        className="w-6 md:w-8 hover:scale-110 active:scale-100 transition-all"
                                     />
                                 </Link>
                             </li>
                             <li>
                                 <Link href={"https://www.instagram.com/tapcoingames/"} target="_blank">
                                     <Image src={InstaLogo} alt="Insta Logo"
-                                        className="w-6 md:w-8"
+                                        className="w-6 md:w-8 hover:scale-110 active:scale-100 transition-all"
                                     />
                                 </Link>
                             </li>
                             <li>
                                 <Link href={"https://x.com/tapcoingames"} target="_blank">
                                     <Image src={TwitterLogo} alt="Twitter"
-                                        className="w-6 md:w-8"
+                                        className="w-6 md:w-8 hover:scale-110 active:scale-100 transition-all"
                                     />
                                 </Link>
                             </li>

@@ -36,7 +36,7 @@ const EarnMore = () => {
                 </div>
                 <figure className=" ">
 
-                    <Image src={Coin6} alt="Coin Effect" className= "animate-float w-8 md:w-20 lg:w-15  absolute md:bottom-4 left-6 md:left-12 xl:left-20  " />
+                    <Image src={Coin6} alt="Coin Effect" className= "animate-float w-8 md:w-20 lg:w-15`  absolute md:bottom-4 left-6 md:left-12 xl:left-20  " />
                 </figure>
 
             </div>
