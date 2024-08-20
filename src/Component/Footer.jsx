@@ -20,7 +20,7 @@ const Footer = () => {
                 <Image src={Diamond} className='w-[50%] mx-auto' alt='Ton Image' />
             </div>
             <div>
-                <Image src={ton} alt='Ton Image' className='w-[60%] md:w-full' />
+                <Image src={ton} alt='Ton Image' className='w-[60%] xl:w-full ' />
             </div>
             <div className=" space-x-2 z-50 ">
                 <ul className="flex gap-3  ">
