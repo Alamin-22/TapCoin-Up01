@@ -15,7 +15,7 @@ const Splash = () => {
             w-full max-w-[90rem] gap-3 ">
 
 
-                <Image src={Splash1} alt="feature1"
+                <Image src={Splash1}  alt="feature1"
                     className=" z-20 mx-auto"
                 />
                 <Image src={Splash2} alt="feature1"
