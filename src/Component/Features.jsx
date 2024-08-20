@@ -12,16 +12,16 @@ const Features = () => {
             w-full max-w-[90rem] ">
 
 
-                <Image src={feature1} alt="feature1"
+                <Image draggable={false} src={feature1} alt="feature1"
                     className="  lg:w-72 z-20 mx-auto"
                 />
-                <Image src={feature2} alt="feature1"
+                <Image draggable={false} src={feature2} alt="feature1"
                     className="  lg:w-72 z-20 mx-auto"
                 />
-                <Image src={feature3} alt="feature1"
+                <Image draggable={false} src={feature3} alt="feature1"
                     className="  lg:w-72 z-20 mx-auto"
                 />
-                <Image src={feature4} alt="feature1"
+                <Image draggable={false} src={feature4} alt="feature1"
                     className="  lg:w-72 z-20 mt-10 mx-auto"
                 />
 

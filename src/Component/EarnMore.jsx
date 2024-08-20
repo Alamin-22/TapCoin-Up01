@@ -14,9 +14,9 @@ import Link from "next/link"
 const EarnMore = () => {
     return (
         <div className=" w-full mb-4 ">
-            <div className=" relative h-[15rem] md:h-[25rem] lg:h-[30rem] xl:h-[38rem] ">
+            <div className=" relative h-[12rem] md:h-[25rem] lg:h-[30rem] xl:h-[38rem] ">
                 <div className=" pt-12 md:pt-28 lg:pt-36 xl:pt-40 flex justify-evenly items-center">
-                    <Image src={EarMoreText} alt="Text" className=" ml-8 w-[40%] z-50" />
+                    <Image src={EarMoreText} alt="Text" draggable={false} className=" ml-8 w-[40%] z-50" />
 
                     <Image src={CartoonYellow} alt="Banner Effect" className="w-[40%] z-50" />
                 </div>
@@ -28,15 +28,15 @@ const EarnMore = () => {
 
             </div>
             {/* second */}
-            <div className=" relative h-[15rem] md:h-[25rem] lg:h-[30rem] xl:h-[38rem] ">
+            <div className=" relative h-[10rem] md:h-[25rem] lg:h-[30rem] xl:h-[38rem] ">
                 <div className=" flex justify-evenly items-center">
                     <Image src={VSPhoto} alt="Banner Effect" className="w-[40%] z-50" />
 
-                    <Image src={VSTitle} alt="Text" className="  ml-8 w-[40%] z-50" />
+                    <Image src={VSTitle} alt="Text" draggable={false} className="  ml-8 w-[40%] z-50" />
                 </div>
                 <figure className=" ">
 
-                    <Image src={Coin6} alt="Coin Effect" className= "animate-float w-8 md:w-20 lg:w-15`  absolute md:bottom-4 left-6 md:left-12 xl:left-20  " />
+                    <Image src={Coin6} alt="Coin Effect" className="animate-float w-8 md:w-20 lg:w-15`  absolute md:bottom-4 left-6 md:left-12 xl:left-20  " />
                 </figure>
 
             </div>
@@ -44,15 +44,14 @@ const EarnMore = () => {
             <div className="  relative xl:h-[40rem]  ">
                 <div className=" flex justify-evenly items-center">
                     <Link href={"https://t.me/Tapcoincash_bot"} target="_blank" className="z-50" >
-                        <Image src={Join} alt="Text" className=" w-[80%] xl:w-full ml-8 z-50" />
+                        <Image src={Join} alt="Text" draggable={false} className="w-40 md:w-96 lg:w-[30rem] ml-8 z-50" />
                     </Link>
 
                     <Image src={WhiteCartoon} alt="cartoon Effect" className=" w-[40%] xl:w-[32%] z-50" />
 
                 </div>
                 <figure className=" ">
-
-                    <Image src={jOINbG} alt="join Effect" className="  absolute top-0 mx-auto w-full" />
+                    <Image src={jOINbG} alt="join Effect" draggable={false} className="  absolute top-0 mx-auto w-full" />
                 </figure>
 
             </div>

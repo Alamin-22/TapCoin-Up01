@@ -22,8 +22,8 @@ const Footer = () => {
             <div>
                 <Image src={ton} alt='Ton Image' className='w-[60%] md:w-full' />
             </div>
-            <div className=" space-x-2 z-50">
-                <ul className="flex gap-3 ">
+            <div className=" space-x-2 z-50 ">
+                <ul className="flex gap-3  ">
                     <li>
                         <Link href={"https://t.me/tapcoincash"} target="_blank">
                             <Image src={TeleLogo} alt="Twitter"
