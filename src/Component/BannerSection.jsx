@@ -15,7 +15,7 @@ const BannerSection = () => {
                 <div className="hero-content flex-col-reverse md:flex-row-reverse justify-between">
                     <Image
                         src={RightBannerImage} alt='Image of Mobile with Coins'
-                        className="md:max-w-md xl:max-w-2xl  "
+                        className="animate-float md:max-w-md xl:max-w-2xl  "
                     />
                     <div className=' '>
                         <Image

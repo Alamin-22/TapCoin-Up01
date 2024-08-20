@@ -56,9 +56,9 @@ const Header = () => {
                     <Image src={bannerEffect} alt="Banner Effect" className="  absolute top-0 right-0 " />
                     <Image src={bannerVector} alt="Banner Effect" className="h-screen absolute top-0 right-0 " />
                     <Image src={bannerVectorLeft} alt="Banner Effect" className="h-screen absolute top-0 left-0 " />
-                    <Image src={ExtraCoinRight} alt="Banner Effect" className=" w-20 md:w-24 xl:w-32 absolute 
+                    <Image src={ExtraCoinRight} alt="Banner Effect" className="animate-float w-20 md:w-24 xl:w-32 absolute 
                     top-[22rem] md:top-[20rem] xl:top-[30rem] right-0 " />
-                    <Image src={ExtraCoinLeft} alt="Banner Effect" className=" w-20 md:w-24 xl:w-32 absolute 
+                    <Image src={ExtraCoinLeft} alt="Banner Effect" className="animate-float w-20 md:w-24 xl:w-32 absolute 
                     top-[20rem] md:top-[23rem] xl:top-[35rem] left-0 " />
                 </figure>
 

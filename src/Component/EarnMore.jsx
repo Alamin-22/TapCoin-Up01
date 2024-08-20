@@ -23,7 +23,7 @@ const EarnMore = () => {
                 <figure className=" ">
                     <Image src={HeaderBg} alt="Banner Effect" className="absolute top-0 w-full" />
 
-                    <Image src={Btc5} alt="Banner Effect" className="w-8  md:w-20  absolute md:bottom-4 right-6 md:right-12 xl:right-20  " />
+                    <Image src={Btc5} alt="Banner Effect" className="animate-float w-8  md:w-20   absolute md:bottom-4 right-6 md:right-12 xl:right-20  " />
                 </figure>
 
             </div>
@@ -32,11 +32,11 @@ const EarnMore = () => {
                 <div className=" flex justify-evenly items-center">
                     <Image src={VSPhoto} alt="Banner Effect" className="w-[40%] z-50" />
 
-                    <Image src={VSTitle} alt="Text" className=" ml-8 w-[40%] z-50" />
+                    <Image src={VSTitle} alt="Text" className="  ml-8 w-[40%] z-50" />
                 </div>
                 <figure className=" ">
 
-                    <Image src={Coin6} alt="Coin Effect" className="w-8 md:w-20  absolute md:bottom-4 left-6 md:left-12 xl:left-20  " />
+                    <Image src={Coin6} alt="Coin Effect" className= "animate-float w-8 md:w-20 lg:w-15  absolute md:bottom-4 left-6 md:left-12 xl:left-20  " />
                 </figure>
 
             </div>

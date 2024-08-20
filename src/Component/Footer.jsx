@@ -12,9 +12,9 @@ import Link from 'next/link';
 const Footer = () => {
     return (
         <div className='mx-auto flex flex-wrap justify-evenly items-end py-6'>
-            <div>
+            <div className='mx-auto w-full '>
                 <Image src={tapCoinLogo} className='mx-auto ' alt='Ton Image' />
-                <span className='text-center md:text-left  text-white text-sm'>© 2024 Tapcoin Tap2earn game</span>
+                <p className='text-center md:text-left  text-white text-sm'>© 2024 Tapcoin Tap2earn game</p>
             </div>
             <div>
                 <Image src={Diamond} className='w-[50%] mx-auto' alt='Ton Image' />
